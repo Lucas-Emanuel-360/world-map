@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+html {
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+
+    cursor: default;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Mapa {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
