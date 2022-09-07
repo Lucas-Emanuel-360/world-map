@@ -32,3 +32,8 @@ function identificarArea(nomeArea) {
     document.getElementById('areaDestaque')
         .innerHTML = nomeArea;
 }
+const chk = document.getElementById('chk');
+
+chk.addEventListener('change', () => {
+    document.body.classList.toggle('dark');
+})

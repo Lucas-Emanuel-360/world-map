@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
 html {
+    color: black;
     margin: 0 auto;
 }
 
@@ -18,4 +19,58 @@ h2:active{
     width: 50%;
     margin: 0 auto;
     display: block;
+}
+html {
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #b19cd9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.7rem 0;
+}
+
+.text {
+    margin-left: 2%;
+    font-size: 1rem;
+    text-decoration: underline;
+    text-decoration-color:#f4f4fc;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    font-family: Roboto;
+    margin-right: 2%;
+    background-color: transparent;
+    border: none;
+    box-shadow: inset 0 0 0 0 #f4f4fc;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.text:hover{
+    color: #000000 ;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a {
+    box-shadow: inset 0 0 0 0 #f4f4fc ;
+    color: #000000 ;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+  }
+.text:hover {
+    box-shadow: inset 6rem 0 0 0 #f4f4fc ;
+    color: rgb(0, 0, 0);
+  }
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    /*margin-left: 435px;*/
+    transition: 0.4s;
 }
