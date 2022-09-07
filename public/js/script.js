@@ -30,5 +30,5 @@ window.onload = function () {
 
 function identificarArea(nomeArea) {
     document.getElementById('areaDestaque')
-    .innerHTML = nomeArea;
+        .innerHTML = nomeArea;
 }
