@@ -2,20 +2,21 @@
 
 html {
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
 h2 {
     cursor: default;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+
 }
 h2:active{
     transition: 0.5s;
 }
 
 .Mapa{
-    width: 50%;
-    margin: 0 auto;
+    width: 400px;
+    margin: auto;
     display: block;
 }
