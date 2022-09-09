@@ -4,7 +4,7 @@ window.onload = function () {
             areas = map.getElementsByTagName('area'),
             len = areas.length,
             coords = [],
-            previousWidth = 2000;
+            previousWidth = 280;
         for (n = 0; n < len; n++) {
             coords[n] = areas[n].coords.split(',');
         }

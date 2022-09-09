@@ -30,7 +30,7 @@ body {
 }
 
 header {
-    background-color: #b19cd9;
+    background-color: #181822;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -43,14 +43,14 @@ header {
     margin-left: 2%;
     font-size: 1rem;
     text-decoration: underline;
-    text-decoration-color:#f4f4fc;
+    text-decoration-color: salmon;
     color: rgb(255, 255, 255);
     transition: 0.5s;
     font-family: Roboto;
     margin-right: 2%;
     background-color: transparent;
     border: none;
-    box-shadow: inset 0 0 0 0 #f4f4fc;
+    box-shadow: inset 0 0 0 0  salmon;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 .text:hover{
@@ -59,13 +59,13 @@ header {
     transition: 0.5s;
 }
 a {
-    box-shadow: inset 0 0 0 0 #f4f4fc ;
+    box-shadow: inset 0 0 0 0  salmon ;
     color: #000000 ;
     margin: 0 -.25rem;
     padding: 0 .25rem;
   }
 .text:hover {
-    box-shadow: inset 6rem 0 0 0 #f4f4fc ;
+    box-shadow: inset 6rem 0 0 0  salmon ;
     color: rgb(0, 0, 0);
   }
 h1 {

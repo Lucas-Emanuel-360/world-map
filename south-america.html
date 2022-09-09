@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheets/style-south.css">
     <title>América Do Sul</title>
+
 </head>
+
 <body>
+    <header>
+        <a class="text" href="#">Home</a>
+        <a class="text" href="#">About Us</a>
+        <a class="text" href="#">What Is This</a>
+    </header>
     <h1>Mapa América do Sul</h1>
-   <img src="public/Maps/south-america.png" alt="" class="Mapa" style="width: 300px;">
-   <p>Teste</p>
+    <h2 id="areaDestaque">!</h2>
+    <img class="Mapa" src="public/Maps/south-america.png" width="280" height="397" usemap="#map"  onmouseover="identificarArea('&nbsp');" />
+
+    <map name="map">
+        <!-- #$-:Image map file created by GIMP Image Map plug-in -->
+        <!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+        <!-- #$-:Please do not edit lines starting with "#$" -->
+        <!-- #$VERSION:2.3 -->
+        <!-- #$AUTHOR:Positivo -->
+        <area shape="poly" coords="180,56,175,67,169,67,164,67,165,61,166,59,164,55,164,50,166,46,171,49,172,50"
+            alt="Guiana Francesa" href="pt.wikipedia.org/wiki/Guiana_Francesa" target="_blank"
+            onmouseover="identificarArea('Guiana Francesa');" />
+        <area shape="poly"
+            coords="166,46,149,45,147,49,143,51,143,56,145,60,148,60,149,65,154,70,156,66,158,65,162,65,164,67"
+            alt="Suriname" href="https://pt.wikipedia.org/wiki/Suriname" target="_blank"
+            onmouseover="identificarArea('Suriname');" />
+        <area shape="poly"
+            coords="91,66,87,61,90,58,86,53,88,45,88,42,80,43,76,42,72,37,64,38,60,36,60,32,56,25,59,19,63,14,69,11,63,7,62,10,56,12,50,14,43,15,39,18,41,23,37,25,35,29,30,30,26,40,29,45,28,54,29,58,24,62,21,66,20,71,27,72,31,75,36,75,42,76,48,81,52,84,54,89,58,88,62,87,69,88,71,90,68,95,72,98,78,84,75,79,75,75,80,74,80,71,76,71,75,67,89,67"
+            alt="Colômbia" href="https://pt.wikipedia.org/wiki/Colômbia" target="_blank"
+            onmouseover="identificarArea('Colômbia');" />
+        <area shape="poly"
+            coords="92,67,87,60,90,57,86,52,89,41,77,42,72,37,63,38,60,35,60,30,56,26,62,17,67,16,72,14,71,8,84,8,88,8,83,15,85,19,120,17,134,31,130,35,130,38,127,41,128,50,115,56,105,54,113,64,105,71,95,74,90,67"
+            alt="Venezuela" href="https://pt.wikipedia.org/wiki/Venezuela" target="_blank"
+            onmouseover="identificarArea('Venezuela');" />
+        <area shape="poly"
+            coords="75,98,78,83,75,76,82,74,82,68,90,68,94,75,113,69,109,55,130,51,134,57,132,68,138,73,151,69,155,71,158,66,164,70,175,67,181,57,183,66,188,70,199,83,211,83,220,90,240,94,253,97,265,104,274,111,271,135,257,150,251,154,234,206,196,218,188,240,162,267,162,261,160,256,154,253,151,250,149,249,146,244,142,246,150,235,162,228,161,222,158,219,160,210,155,209,151,200,142,199,141,186,145,176,139,169,140,164,130,163,128,152,115,146,101,139,101,125,81,134,72,135,70,126,63,130,57,127,54,121,52,117,54,113,57,108,60,103,67,100,72,98"
+            alt="Brasil" href="brasil.html"_blank"
+            onmouseover="identificarArea('Brasil');" />
+        <area shape="poly"
+            coords="77,136,82,137,92,130,99,128,100,139,104,144,109,144,118,149,123,151,127,153,126,158,128,164,129,167,135,166,138,166,138,172,141,174,141,179,140,183,131,183,122,183,118,186,117,192,117,198,110,198,102,199,98,197,96,199,91,203,89,203,85,190,85,184,82,181,80,175,78,173,82,167,79,164,81,158"
+            alt="Bolívia" href="https://pt.wikipedia.org/wiki/Bolívia" target="_blank"
+            onmouseover="identificarArea('Bolívia');" />
+    </map>
+    <script src="public/js/scrips-south.js"></script>
 </body>
+
 </html>
