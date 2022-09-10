@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300&display=swap');
+
 
 html {
     color: black;
     margin: 0 auto;
 }
 
-h1,
+h1 {
+  cursor: default;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+}
+
 h2 {
     cursor: default;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Serif Georgian', serif;
 }
 h2:active{
     transition: 0.5s;
@@ -46,7 +52,7 @@ header {
     text-decoration-color: salmon;
     color: rgb(255, 255, 255);
     transition: 0.5s;
-    font-family: Roboto;
+    font-family: 'Noto Serif Georgian', serif;
     margin-right: 2%;
     background-color: transparent;
     border: none;
@@ -70,7 +76,7 @@ header {
   }
 h1 {
     color: rgb(0, 0, 0);
-    font-family: Roboto;
+    font-family: 'Russo One', sans-serif;
     transition: 0.4s;
 }
 
