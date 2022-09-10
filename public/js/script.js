@@ -32,3 +32,6 @@ function identificarArea(nomeArea) {
     document.getElementById('areaDestaque')
         .innerHTML = nomeArea;
 }
+function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');
+}

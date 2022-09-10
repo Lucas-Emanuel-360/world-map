@@ -10,14 +10,26 @@
 </head>
 
 <body>
-    <header>
+<header>
+
         <a class="text" href="index.html">Home</a>
         <a class="text" href="#">About Us</a>
         <a class="text" href="#">What Is This</a>
+    </div>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <a class="text1" href="index.html">Home</a>
+                <a class="text1" href="#">About Us</a>
+                <a class="text1" href="#">What Is This</a>
+            </ul>
+          </div>
     </header>
 
     <h1>Mapa Mundi</h1>
-    <h2 id="areaDestaque">!</h2>
+    <h2 id="areaDestaque"> </h2>
     <img class="Mapa" src="public/imgs/mapa1.jpg" usemap="#map" id="img" onmouseover="identificarArea('&nbsp');" />
 
     <map id="mapa" name="map">
@@ -52,6 +64,4 @@
 </body>
 
 </html>
-<!-- Links
 
-    -->
