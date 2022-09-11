@@ -35,20 +35,20 @@
             <img src="%s">
             <p>%s</p> 
             </div>
-            <a href="github.com"><img class="git" src="git.svg""=></a>
-            <a href="linkedin.com"><img class="link" src="link.svg""=></a>
+            <a href="github.com"><img class="git" src="public/stylesheets/git.svg""=></a>
+            <a href="linkedin.com"><img class="link" src="public/stylesheets/link.svg""=></a>
         
             </div>
  
 TEXT;
     $perfil = [
-        ['Pessoa 1','perfil.png','Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, veritatis. Distinctio quo saepe ut repellat praesentium. Doloribus officia, accusamus eveniet inventore odio, cupiditate, ea quae explicabo velit laboriosam veniam maiores.
+        ['Pessoa 1','public/imgs/perfil.png','Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, veritatis. Distinctio quo saepe ut repellat praesentium. Doloribus officia, accusamus eveniet inventore odio, cupiditate, ea quae explicabo velit laboriosam veniam maiores.
         '],
-        ['Pessoa 2','perfil.png','Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, veritatis. Distinctio quo saepe ut repellat praesentium. Doloribus officia, accusamus eveniet inventore odio, cupiditate, ea quae explicabo velit laboriosam veniam maiores.
+        ['Pessoa 2','public/imgs/perfil.png','Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, veritatis. Distinctio quo saepe ut repellat praesentium. Doloribus officia, accusamus eveniet inventore odio, cupiditate, ea quae explicabo velit laboriosam veniam maiores.
         '],
-        ['Pessoa 3','perfil.png','Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, veritatis. Distinctio quo saepe ut repellat praesentium. Doloribus officia, accusamus eveniet inventore odio, cupiditate, ea quae explicabo velit laboriosam veniam maiores.
+        ['Pessoa 3','public/imgs/perfil.png','Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, veritatis. Distinctio quo saepe ut repellat praesentium. Doloribus officia, accusamus eveniet inventore odio, cupiditate, ea quae explicabo velit laboriosam veniam maiores.
         '],
-        ['Pessoa 4','perfil.png','Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, veritatis. Distinctio quo saepe ut repellat praesentium. Doloribus officia, accusamus eveniet inventore odio, cupiditate, ea quae explicabo velit laboriosam veniam maiores.
+        ['Pessoa 4','public/imgs/perfil.png','Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, veritatis. Distinctio quo saepe ut repellat praesentium. Doloribus officia, accusamus eveniet inventore odio, cupiditate, ea quae explicabo velit laboriosam veniam maiores.
         '],
     ];
     foreach ($perfil as $p) {
