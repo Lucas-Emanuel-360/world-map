@@ -1,0 +1,26 @@
+/*Só pra testar se ta funfando
+se clicar lá, o título fica salmão
+depois eu (clara) vou adaptar as cores todas
+OBS.: não é nem um pouco responsivo*/
+h1{
+    color: salmon;
+}
+
+/*Botão de light mode*/
+.cor button { /*Style do botão de cor tema*/
+    color: salmon;
+    background-color: #f3f3f3;
+    border: 2px solid salmon;
+    display: block;
+    margin: 10px;
+    font-size: 16pt;
+    height: 45px;
+    width: 90px;
+    transition-duration: 1s;
+    opacity: 80%;
+    border-radius: 15%;
+    right: 0.5%;
+    top: 2%;
+    position: fixed;
+    cursor: pointer;
+}

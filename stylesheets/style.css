@@ -126,6 +126,26 @@ h1 {
     width: 100%;
     transition: 0.5s;
   }
+
+/*Botão de dark mode*/
+.cor button { /*Style do botão de cor tema*/
+  color: salmon;
+  background-color: #181822;
+  border: 2px solid salmon;
+  display: block;
+  margin: 10px;
+  font-size: 16pt;
+  height: 45px;
+  width: 90px;
+  transition-duration: 1s;
+  opacity: 80%;
+  border-radius: 15%;
+  right: 0.5%;
+  top: 2%;
+  position: fixed;
+  cursor: pointer;
+}
+
     
   @media only screen and (max-width: 600px) {
     .text{
@@ -164,4 +184,3 @@ h1 {
         transition: 0.5s;
     }
   }
-
