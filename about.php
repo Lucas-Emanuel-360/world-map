@@ -35,8 +35,8 @@
             <img src="%s">
             <p>%s</p> 
             </div>
-            <a href="github.com"><img class="git" src="public/stylesheets/git.svg""=></a>
-            <a href="linkedin.com"><img class="link" src="public/stylesheets/link.svg""=></a>
+            <a href="github.com"><img class="git" src="public/imgs/svgs/git.svg""=></a>
+            <a href="linkedin.com"><img class="link" src="public/imgs/svgs/link.svg""=></a>
         
             </div>
  
