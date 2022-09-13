@@ -21,8 +21,8 @@
     <div class="bar3"></div>
     <ul class="mobile-menu">
         <a class="text1" href="index.html">Home</a>
-        <a class="text1" href="#">About Us</a>
-        <a class="text1" href="#">What Is This</a>
+        <a class="text1" href="#">Sobre Nós</a>
+        <a class="text1" href="#">Oque é</a>
     </ul>
   </div>
 </header>

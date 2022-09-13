@@ -73,6 +73,108 @@ a {
     box-shadow: inset 6rem 0 0 0 salmon ;
     color: rgb(0, 0, 0);
   }
+  #hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  #hamburger-icon div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    margin-left: 15px;
+    transition: 0.4s;
+  }
+  
+  .open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  
+  .open .bar2 {
+    opacity: 0;
+  }
+  
+  .open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+  }
+  
+  .open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+    transition: 0.5s;
+  }
+
+/*Botão de dark mode*/
+.cor button { /*Style do botão de cor tema*/
+  color: salmon;
+  background-color: #181822;
+  border: 2px solid salmon;
+  display: block;
+  margin: 10px;
+  font-size: 16pt;
+  height: 45px;
+  width: 90px;
+  transition-duration: 1s;
+  opacity: 80%;
+  border-radius: 15%;
+  right: 0.5%;
+  top: 2%;
+  cursor: pointer;
+}
+
+    
+  @media only screen and (max-width: 600px) {
+    .text{
+        display: none;
+    }
+    .Mapa{
+        width: 100%;
+       }
+    header nav {
+      display: none;
+    }
+  
+    #hamburger-icon {
+      display: block;
+    }
+    .text1{
+        margin: 0;
+        text-align: center;
+        list-style: none;
+        text-decoration: underline;
+        text-decoration-color:#181822 ;
+        color: rgb(255, 255, 255);
+        background-color: salmon;
+        margin-bottom: 15%;
+        margin-top: 6%;
+        margin-left: -57px;
+        transition: 0.5s;
+}
+
+    .mobile-menu{
+        margin: 0;
+        text-align: left;
+        list-style: none;
+        height: 100%;
+        background-color: salmon;
+        transition: 0.5s;
+    }
+  }
 h1 {
     color: rgb(0, 0, 0);
 }
