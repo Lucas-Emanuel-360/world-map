@@ -81,6 +81,17 @@ h1 {
     transition: 0.4s;
 }
 
+footer{
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  padding: 0 1rem 1rem 0;
+  width: 100%;
+  background-color: #181822;
+  color: white;
+  text-align: center;
+}
+
 #hamburger-icon {
     margin: auto 0;
     display: none;
