@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 
 html {
     color: black;
@@ -9,20 +10,20 @@ html {
 h1 {
     cursor: default;
     text-align: center;
-    font-family: 'Tiro Devanagari Hindi', serif;
+    font-family: 'Roboto', sans-serif;
   }
   
   h2 {
       cursor: default;
       text-align: center;
-      font-family: 'Noto Serif Georgian', serif;
+      font-family: 'Roboto', sans-serif;
   }
 
 p{
     margin-top: 5%;
     margin-left: 2%;
     text-align: center;
-    font-family: 'Noto Serif Georgian', serif;    
+    font-family: 'Roboto', sans-serif;  
 }
 
 html {
@@ -51,7 +52,7 @@ header {
     text-decoration-color:salmon;
     color: rgb(255, 255, 255);
     transition: 0.5s;
-    font-family: 'Noto Serif Georgian', serif;
+    font-family: 'Roboto', sans-serif;
     margin-right: 2%;
     background-color: transparent;
     border: none;
