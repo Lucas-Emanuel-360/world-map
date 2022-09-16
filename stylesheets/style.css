@@ -197,7 +197,6 @@ cursor: pointer;
       background-color: salmon;
       margin-bottom: 15%;
       margin-top: 6%;
-      margin-left: -57px;
       transition: 0.5s;
 }
 
@@ -208,6 +207,7 @@ cursor: pointer;
       height: 100%;
       background-color: salmon;
       transition: 0.5s;
+      padding: 0px;
   }
   .cor button{
     display: none;
