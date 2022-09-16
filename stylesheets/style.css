@@ -85,7 +85,7 @@ footer{
   display: flex;
   flex-direction: column;
   height: 50px;
-  padding: 0 1rem 1rem 0;
+  padding-bottom: 25px;
   width: 100%;
   background-color: #181822;
   color: white;
