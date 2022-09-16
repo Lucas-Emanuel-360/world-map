@@ -2,6 +2,9 @@
 se clicar lá, o título fica salmão
 depois eu (clara) vou adaptar as cores todas
 OBS.: não é nem um pouco responsivo*/
+body{
+    background-color: #252525;
+}
 h1{
     color: salmon;
 }
