@@ -16,7 +16,6 @@
 
 <a class="text" href="index.html">Home</a>
 <a class="text" href="about.php">Sobre Nós</a>
-<a class="text" href="#">O que é</a>
 <a class="text" href="country.html">Países</a>
 </div>
 <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
@@ -26,7 +25,6 @@
     <ul class="mobile-menu">
         <a class="text1" href="index.html">Home</a>
         <a class="text1" href="about.php">Sobre Nós</a>
-        <a class="text1" href="#">O que é</a>
         <a class="text1" href="country.html">Países</a>
     </ul>
   </div>
