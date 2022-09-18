@@ -10,6 +10,8 @@
     <title>Sobre Nos</title>
 </head>
 <body>
+<div class="transition transition-2 is-active"></div>
+    <div class="page">
 <header>
 
 <a class="text" href="index.html">Home</a>
