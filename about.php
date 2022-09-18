@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style-base.css">
     <link rel="stylesheet" href="stylesheets/style-about.css">
     <script src="public/js/script-theme.js"></script>
     <title>Sobre Nos</title>
@@ -14,7 +15,7 @@
 <a class="text" href="index.html">Home</a>
 <a class="text" href="about.php">Sobre Nós</a>
 <a class="text" href="#">O que é</a>
-<a class="text" href="#">Países</a>
+<a class="text" href="country.html">Países</a>
 </div>
 <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
     <div class="bar1"></div>
@@ -22,9 +23,9 @@
     <div class="bar3"></div>
     <ul class="mobile-menu">
         <a class="text1" href="index.html">Home</a>
-        <a class="text1" href="#">Sobre Nós</a>
+        <a class="text1" href="about.php">Sobre Nós</a>
         <a class="text1" href="#">O que é</a>
-        <a class="text1" href="#">Países</a>
+        <a class="text1" href="country.html">Países</a>
     </ul>
   </div>
 </header>
