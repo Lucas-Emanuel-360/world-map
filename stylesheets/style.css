@@ -3,6 +3,7 @@ svg path {
   fill: #181822;
   stroke: rgb(77, 77, 77);
   stroke-width: .25;
+  transition-duration: 0.3s;
 }
 
 svg path:hover {
