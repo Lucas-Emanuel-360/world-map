@@ -76,11 +76,11 @@ header {
   box-shadow: inset 0 0 0 0 salmon;
   color: #000000;
   margin: 0 -.25rem;
-  padding: 0 .25rem;
+  padding: 0 .20rem;
 }
 
 .text:hover {
-  box-shadow: inset 6rem 0 0 0 salmon;
+  box-shadow: inset 5rem 0 0 0 salmon;
   color: rgb(0, 0, 0);
 }
 

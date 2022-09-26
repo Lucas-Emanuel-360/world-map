@@ -34,12 +34,11 @@
             <div class="container">
             <h1>%s</h1>
             <div class = "person">
-            <img src="%s">
+            <img  class="personimg" src="%s">
             <p>%s</p> 
             </div>
             <a href="github.com"><img class="git" src="public/imgs/svgs/git.svg""=></a>
             <a href="linkedin.com"><img class="link" src="public/imgs/svgs/link.svg""=></a>
-        
             </div>
  
 TEXT;
@@ -61,6 +60,8 @@ TEXT;
 <div class="cor" id="cor"> <!--Div da cor tema-->
         <button onclick="dark()">Dark</button> <!--Botão opção "mudar de cor tema"-->
     </div>
-    <script src="public/js/script.js"></script>
+    <footer>
+        <p>&copy; 2022</p>
+    </footer>
 </body>
 </html>

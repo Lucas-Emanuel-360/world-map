@@ -39,7 +39,7 @@ h3 {
   flex-direction: row;
 }
 
-.container img {
+.personimg{
   border-radius: 60px;
   margin-left: 1%;
   width: 200px;
@@ -55,4 +55,48 @@ a .link {
   width: 33px;
   height: 70px;
   filter: invert(81%) sepia(36%) saturate(4489%) hue-rotate(310deg) brightness(96%) contrast(105%);
+}
+
+@media (max-width: 760px) {
+  .cor button {
+    /*Style do botão de cor tema*/
+    position: relative;
+    color: salmon;
+    background-color: #181822;
+    border: 2px solid salmon;
+    display: block;
+    margin: 10px;
+    font-size: 16pt;
+    height: 45px;
+    width: 90px;
+    transition-duration: 0.6s;
+    opacity: 80%;
+    border-radius: 15%;
+    right: 0.5%;
+    top: 2%;
+    cursor: pointer;
+  }
+  .cor button:hover{
+    box-shadow: 4px 4px 5px #181822;
+    transition-duration: 0.3s;
+    transform: translateY(-5px);
+    opacity: 95%;
+  }
+  .cor button:active{
+    opacity: 0%;
+  }
+  .personimg {
+    margin-top: 50px;
+    border-radius: 25px;
+    margin-left: 1%;
+    height: 180px;
+    width: 200px;
+  }
+  .person {
+    display: flex;
+    flex-direction: row;
+  }
+  .container h1{
+    margin-bottom: -20px;
+  }
 }
